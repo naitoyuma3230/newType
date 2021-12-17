@@ -1,0 +1,70 @@
+body{
+  font-family: monospace;
+}
+
+.container{
+  /* background: rgb(255, 160, 160); */
+  border: 1px solid black;
+
+  flex-direction: column;
+}
+
+#word{
+  /* background: crimson; */
+  height: 40px;
+  text-align: center;
+  font-size: 38px;
+  margin: 60px auto;
+  letter-spacing: 2px;
+}
+
+#nextKey{
+  height: 40px;
+  text-align: center;
+  font-size: 38px;
+}
+
+#typedKey{
+  height: 40px;
+  text-align: center;
+  font-size: 38px;
+  margin: 20px auto;
+}
+
+#typedWord{
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+}
+
+.bord{
+  /* background: coral; */
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#score{
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  flex-grow: 1;
+}
+
+#miss{
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  flex-grow: 1;
+}
+
+#time{
+  /* background: cornflowerblue; */
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  font-size: 26px;
+  flex-grow: 1;
+}
